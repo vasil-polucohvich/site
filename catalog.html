@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/src/favicon-32x32.png">
+    <link rel="stylesheet" href="css/app.min.css">
+</head>
+<body id="page">
+    <div class="wrapper">
+        <header class="header">
+            <div class="header-top">
+                <div class="container">
+                    <div class="row justify-content-between top-panel">
+                        <div class="col-md-4 col-xl-4 col-sm-6">
+                            <div class="block-logo animate__animated animate__backInLeft">
+                                <a class="block-logo__link" href="./index.html">
+                                    <img src="./images/src/logo.svg" width="60" height="60" alt="логотип" class="block-logo__logo">
+                                    <span class="block-logo__text">техноснаб</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4  col-xl-4  mt-xl-0 d-flex  align-items-center block-input">
+                            <input placeholder="поиск" type="search" name="search" id="search">
+                            <img class="input-button" src="./images/src/search.svg" width="23" height="24" alt="поиск" />
+                        </div>
+                        <div class="col-md-4 col-xl-4 col-sm-6 animate__animated animate__backInRight">
+                            <div class="text">
+                                <a href="tel:+3806846025">+3 (806) 84-60-25</a>
+                            </div>
+                            <div class="text">
+                                <a href="tel:+3806860250">+3 (806) 84-60-25</a>
+                            </div>
+                            <div class="text">
+                                <a href="tel:+3067231040">+3 (067) 23-10-40</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <nav class="navigation" id="menu-act">
+                                <ul class="nav-list">
+                                    <li class="nav-list__item">
+                                        <a class="nav-list__link " href="./index.html">
+                                            Главная
+                                        </a></li>
+                                    <li class="nav-list__item">
+                                        <a class="nav-list__link" href="catalog.html">
+                                            Каталог
+                                        </a></li>
+                                    <li class="nav-list__item">
+                                        <a class="nav-list__link" href="dostavka.html">
+                                            Доставка
+                                        </a></li>
+                                    <li class="nav-list__item">
+                                        <a class="nav-list__link" href="company.html">
+                                            О компании
+                                        </a></li>
+                                    <li class="nav-list__item">
+                                        <a class="nav-list__link" href="contacts.html">
+                                            Контакты
+                                        </a></li>
+                                </ul>
+                                <button class="burger-menu">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </button>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--header-bottom-->
+        </header>
+        <main class="main">
+            <section class="bannet-top">
+                <div class="container">
+                    <nav style="--bs-breadcrumb-divider: '>'; " aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="#">Главная</a></li>
+                            <li class="breadcrumb-item active" aria-current="page"><a href="#">Каталог</a></li>
+                            <li class="breadcrumb-item active" aria-current="page"><a href="#">Датчики и реле температуры</a></li>
+                        </ol>
+                    </nav>
+                </div>
+            </section>
+            <div class="container">
+                <div class="row ">
+                    <div class="col-md-4 col-sm-12 order-sm-first order-first order-md-first  order-xl-first">
+                        <aside class="sidebar">
+                            <ul class="main-menu">
+                                <li><a href="#">Расходометры</a>
+                                    <ul class="main-submenu">
+                                        <li><a href="#">Винтовые расходомеры</a></li>
+                                        <li><a href="#">Клапанные расходомеры</a></li>
+                                        <li><a href="#">Поршнекольцевые расходомеры</a></li>
+                                        <li><a href="#">Турбинные расходомеры</a></li>
+                                    </ul>
+                                </li>
+                                <li class="#">
+                                    <a href="#">Конвейерная техника</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="#">Датчики и реле температуры</a></li>
+                                        <li><a href="#">Насосы Bosh Group</a></li>
+                                        <li><a href="#">Насосы для лаков и красок</a></li>
+                                        <li><a href="#">Насосы дозировочные</a></li>
+                                        <li><a href="#">Дизельные моторы</a></li>
+                                        <li><a href="#">Приборы контроля</a></li>
+                                        <li><a href="#">Станки шлифовальные</a></li>
+                                        <li><a href="#">Моторы редуктора</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Дизельные моторы, генераторы</a></li>
+                                <li><a href="#">Моторы - редуктора</a></li>
+                                <li class="opened">
+                                    <a href="#">Насосы и насосное оборудование</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="#">Бесконтактные линейные датчики</a></li>
+                                        <li><a href="#">Датчики вращения вала</a></li>
+                                        <li><a href="#">Датчики угла</a></li>
+                                        <li><a href="#">Линейные датчики бокового положения</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Станки шлифовальные</a></li>
+                                <li><a href="#">Маслоохлаждение редуктора</a></li>
+                                <li><a href="#">Грюбер пружины</a></li>
+                            </ul>
+                        </aside>
+                    </div>
+                    <div class="col-md-8">
+                        <section class="recomend">
+                            <div class="container">
+                                <div class="row justify-content-between">
+                                    <div class="col-12 col-sm-5  col-md-5 offset-md-1 col-xl-3 offset-xl-0 bg-white py-2 mb-4 border border-info catalog-card">
+                                        <img class="card-img pb-2" src="images/src/card-1.jpg" alt="card-1">
+                                        <h3 class="card__title text-center">Счетчик расходомер малого расхода HZ5 </h3>
+                                        <p class="card__text text-center">Артикул</p>
+                                        <a class="card__link text-center" href="#">Подробнее</a>
+                                    </div>
+                                    <div class="col-12 col-sm-5  col-md-5 offset-md-1 col-xl-3 offset-xl-1 bg-white py-2 mb-4 border border-info catalog-card">
+                                        <img class="card-img pb-2" src="images/src/card-2.jpg" alt="card-2">
+                                        <h3 class="card__title text-center">Счетчик расходомер малого расхода HZ5 </h3>
+                                        <p class="card__text text-center">Артикул</p>
+                                        <a class="card__link text-center" href="#">Подробнее</a>
+                                    </div>
+                                    <div class="col-12 col-sm-5  col-md-5 offset-md-1 col-xl-3 offset-xl-1 bg-white py-2 mb-4 border border-info catalog-card">
+                                        <img class="card-img pb-2" src="images/src/card-3.jpg" alt="card-3">
+                                        <h3 class="card__title text-center">Счетчик расходомер малого расхода HZ5 </h3>
+                                        <p class="card__text text-center">Артикул</p>
+                                        <a class="card__link text-center" href="#">Подробнее</a>
+                                    </div>
+                                    <div class="col-12 col-sm-5 offset-sm-1 col-md-5 offset-md-1 offset-xl-0 col-xl-3  bg-white py-2 mb-4 border border-info catalog-card">
+                                        <img class="card-img pb-2" src="images/src/card-1.jpg" alt="card-1">
+                                        <h3 class="card__title text-center">Счетчик расходомер малого расхода HZ5 </h3>
+                                        <p class="card__text text-center">Артикул</p>
+                                        <a class="card__link text-center" href="#">Подробнее</a>
+                                    </div>
+                                    <div class="col-12 col-sm-5  col-md-5 offset-md-1 col-xl-3 offset-xl-1 bg-white py-2 mb-4 border border-info catalog-card">
+                                        <img class="card-img pb-2" src="images/src/card-2.jpg" alt="card-2">
+                                        <h3 class="card__title text-center">Счетчик расходомер малого расхода HZ5 </h3>
+                                        <p class="card__text text-center">Артикул</p>
+                                        <a class="card__link text-center" href="#">Подробнее</a>
+                                    </div>
+                                    <div class="col-12 col-sm-5 offset-sm-1 col-md-5 offset-md-1 col-xl-3 offset-xl-1 bg-white py-2 mb-4 border border-info catalog-card">
+                                        <img class="card-img pb-2" src="images/src/card-3.jpg" alt="card-3">
+                                        <h3 class="card__title text-center">Счетчик расходомер малого расхода HZ5 </h3>
+                                        <p class="card__text text-center">Артикул</p>
+                                        <a class="card__link text-center" href="#">Подробнее</a>
+                                    </div>
+                                    <div class="col-12 col-sm-5  col-md-5 offset-md-1 offset-xl-0 col-xl-3 bg-white py-2 mb-4 border border-info catalog-card">
+                                        <img class="card-img pb-2" src="images/src/card-1.jpg" alt="card-1">
+                                        <h3 class="card__title text-center">Счетчик расходомер малого расхода HZ5 </h3>
+                                        <p class="card__text text-center">Артикул</p>
+                                        <a class="card__link text-center" href="#">Подробнее</a>
+                                    </div>
+                                    <div class="col-12 col-sm-5 offset-sm-1 col-md-5 offset-md-1 col-xl-3 offset-xl-1 bg-white py-2 mb-4 border border-info catalog-card">
+                                        <img class="card-img pb-2" src="images/src/card-2.jpg" alt="card-2">
+                                        <h3 class="card__title text-center">Счетчик расходомер малого расхода HZ5 </h3>
+                                        <p class="card__text text-center">Артикул</p>
+                                        <a class="card__link text-center" href="#">Подробнее</a>
+                                    </div>
+                                    <div class="col-12 col-sm-5  col-md-5 offset-md-1 col-xl-3 offset-xl-1 bg-white py-2 mb-4 border border-info catalog-card">
+                                        <img class="card-img pb-2" src="images/src/card-3.jpg" alt="card-3">
+                                        <h3 class="card__title text-center">Счетчик расходомер малого расхода HZ5 </h3>
+                                        <p class="card__text text-center">Артикул</p>
+                                        <a class="card__link text-center" href="#">Подробнее</a>
+                                    </div>
+                                    <div class="col-12 col-sm-5 offset-sm-1 col-md-5 offset-md-1 offset-xl-0  col-xl-3  bg-white py-2 mb-4 border border-info catalog-card">
+                                        <img class="card-img pb-2" src="images/src/card-1.jpg" alt="card-1">
+                                        <h3 class="card__title text-center">Счетчик расходомер малого расхода HZ5 </h3>
+                                        <p class="card__text text-center">Артикул</p>
+                                        <a class="card__link text-center" href="#">Подробнее</a>
+                                    </div>
+                                    <div class="col-12 col-sm-5  col-md-5 offset-md-1 col-xl-3 offset-xl-1 bg-white py-2 mb-4 border border-info catalog-card">
+                                        <img class="card-img pb-2" src="images/src/card-2.jpg" alt="card-2">
+                                        <h3 class="card__title text-center">Счетчик расходомер малого расхода HZ5 </h3>
+                                        <p class="card__text text-center">Артикул</p>
+                                        <a class="card__link text-center" href="#">Подробнее</a>
+                                    </div>
+                                    <div class="col-12 col-sm-5 offset-sm-1 col-md-5 offset-md-1 col-xl-3 offset-xl-1 bg-white py-2 mb-4 border border-info catalog-card">
+                                        <img class="card-img pb-2" src="images/src/card-3.jpg" alt="card-3">
+                                        <h3 class="card__title text-center">Счетчик расходомер малого расхода HZ5 </h3>
+                                        <p class="card__text text-center">Артикул</p>
+                                        <a class="card__link text-center" href="#">Подробнее</a>
+                                    </div>
+                                    <div class="col-12 col-sm-5  col-md-5 offset-md-1 offset-xl-0 col-xl-3  bg-white py-2 mb-4 border border-info catalog-card">
+                                        <img class="card-img pb-2" src="images/src/card-1.jpg" alt="card-1">
+                                        <h3 class="card__title text-center">Счетчик расходомер малого расхода HZ5 </h3>
+                                        <p class="card__text text-center">Артикул</p>
+                                        <a class="card__link text-center" href="#">Подробнее</a>
+                                    </div>
+                                    <div class="col-12 col-sm-5 offset-sm-1 col-md-5 offset-md-1 col-xl-3 offset-xl-1 bg-white py-2 mb-4 border border-info catalog-card">
+                                        <img class="card-img pb-2" src="images/src/card-2.jpg" alt="card-2">
+                                        <h3 class="card__title text-center">Счетчик расходомер малого расхода HZ5 </h3>
+                                        <p class="card__text text-center">Артикул</p>
+                                        <a class="card__link text-center" href="#">Подробнее</a>
+                                    </div>
+                                    <div class="col-12 col-sm-5  col-md-5 offset-md-1 col-xl-3 offset-xl-1 bg-white py-2 mb-4 border border-info catalog-card">
+                                        <img class="card-img pb-2" src="images/src/card-3.jpg" alt="card-3">
+                                        <h3 class="card__title text-center">Счетчик расходомер малого расхода HZ5 </h3>
+                                        <p class="card__text text-center">Артикул</p>
+                                        <a class="card__link text-center" href="#">Подробнее</a>
+                                    </div>
+                                </div>
+                                <div class="row d-lg-flex my-5">
+                                    <div class=" col-12 col-lg-6 offset-lg-1 px-0  justify-content-between flex-sm-column flex-column">
+                                        <div class="pagination-tovar mb-sm-4 mb-4">
+                                            <span>Показать товаров:</span>
+                                            <select class="select-nav" name="select">
+                                                <option value="value2" selected>16</option>
+                                                <option value="value1">32</option>
+                                                <option value="value3">64</option>
+                                            </select>
+                                            <span>1 - 16 из 64</span>
+                                        </div>
+                                    </div>
+                                    <ul class="col-lg-5 pagination-list d-flex justify-content-lg-end justify-content-sm-start justify-content-start">
+                                        <li class="pagination-list__item pagination-list__item--first"><a href="#">&lt;</a></li>
+                                        <li class="pagination-list__item pagination-list__item--active"><a href="#">1</a></li>
+                                        <li class="pagination-list__item"><a href="#">2</a></li>
+                                        <li class="pagination-list__item"><a href="#">3</a></li>
+                                        <li class="pagination-list__item"><a href="#">...</a></li>
+                                        <li class="pagination-list__item"><a href="#">57</a></li>
+                                        <li class="pagination-list__item pagination-list__item pagination-list__item--last"><a href="#">&gt;</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </main>
+         <footer class="footer">
+   <div class="container">
+     <div class="row justify-content-sm-center py-5">
+       <div class="col-md-6 col-xl-4 my-sm-3 align-self-center px-0 ">
+        <a class="block-logo" href="./index.html">
+          <img src="./images/src/logo.svg" width="60" height="60" alt="логотип"  class="block-logo__logo">
+          <span class="block-logo__text block-logo__text--white ">техноснаб</span>
+        </a>
+       </div>
+       <div class="col-md-6 col-xl-4 my-sm-3 px-5 my-xl-0">
+         <nav>
+           <ul class="footer-list">
+             <li class="footer-list__item"><a href="catalog.html">Каталог</a></li>
+             <li class="footer-list__item"><a href="dostavka.html">Доставка</a></li>
+             <li class="footer-list__item"><a href="company.html">О компании</a></li>
+             <li class="footer-list__item"><a href="contacts.html">Контакты</a></li>
+           </ul>
+         </nav>
+       </div>
+       <div class="col-md-12 col-xl-4">
+         <ul class="footer-list-2">
+           <li class="footer-list-2__item">
+            <a class="footer-list-2__link"  href="tel:+1312378689">(1312) 37-86-89</a>,
+            <a class="footer-list-2__link"  href="tel:+1312311040">(1312) 31-10-40</a></li>
+           <li class="footer-list-2__item">г. Харьков, ул. Петра Григоренко, д. 140</li>
+           <li class="footer-list-2__item"><a class="footer-list-2__link" href="mailto:ibn@tecnosnab.ua">ibn@tecnosnab.ua</a></li> 
+         </ul>
+       </div>
+     </div>
+   </div>
+   <div class="footer-bottom">
+     <div class="container">
+       <div class="row">
+         <div class="col-md-12 text-center">
+           <p class="my-0 py-3 f-color" role="contentinfo">by Andrey Pavlenko</p>
+         </div>
+       </div>
+     </div>
+   </div>
+   
+   <a href="#page" class="custom-btn ">
+   <svg xmlns="http://www.w3.org/2000/svg" width="25" height="42" viewBox="0 0 10 16"><path fill="#fff" fill-rule="evenodd" d="M5 3L0 9h3v4h4V9h3L5 3z"/></svg>
+   </a>
+  </footer>
+    </div>
+    <!--end wrapper-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+    <script src="js/app.min.js"></script>
+</body>
+</html>
