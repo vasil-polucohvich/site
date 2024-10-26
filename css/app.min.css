@@ -3972,7 +3972,9 @@ html {
   padding-left: 80px
 }
 .recomend {
-  margin-top: 10px
+  margin-top: 10px;
+  margin-bottom:40px;
+  
 }
 .border-r {
   border: 1px solid #f5b971;
