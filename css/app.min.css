@@ -3969,7 +3969,8 @@ html {
   padding-bottom: 91px
 }
 .dostavka-list__item {
-  padding-left: 80px
+  padding-left: 80px;
+  height:62px;
 }
 .recomend {
   margin-top: 10px;
