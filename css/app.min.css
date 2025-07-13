@@ -4072,7 +4072,8 @@ html {
   transition: all .3s ease-in
 }
 .footer ul {
-  color: #ecebed
+  color: #ecebed;
+  margin-bottom: 25px;
 }
 .footer-bottom {
   border-top: 1px solid #7c7880
